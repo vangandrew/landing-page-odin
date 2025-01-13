@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+ul li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
+/* Header Styles */
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.header .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header ul {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.header ul li a {
+    color: #fff;
+}
+
+/* Hero Section Styles */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 72px 0;
+    gap: 120px;
+}
+
+.flipped {
+    flex-direction: row-reverse;
+}
+
+.hero-img {
+    max-width: 500px;
+    height: auto;
+    border-radius: 12px;
+}
+
+.hero-info {
+    flex-direction: column;
+}
+
+.hero-info h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 0 0 12px 0;
+}
+
+.hero-info p {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin: 0 0 12px 0;
+}
+
+.hero-info .hero-btn {
+    background-color: #3882F6;
+    text-align: center;
+    padding: 8px 28px;
+    color: #E5E7EB;
+    border-radius: 8px;
+    border-style: none;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+/* Information Section Styles */
+.info-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    gap: 52px;
+}
+
+.card-img {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+    padding: 24px;
+    text-align: center;
+}
