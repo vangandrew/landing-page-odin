@@ -91,13 +91,16 @@ li a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px dotted red;
-    padding: 120px 0;
+    padding: 60px 0 120px 0;
 }
 
 .container {
     display: flex;
     gap: 52px;
+}
+
+.container-title {
+    margin-bottom: 48px;
 }
 
 .card-img {
@@ -141,13 +144,15 @@ li a {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 128px 0;
 }
 
 .sign-up-box {
+    width: 1280px;
     background-color: #3882F6;
-    padding: 48px 96px;
+    padding: 48px 128px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     border-radius: 8px;
 }
@@ -165,9 +170,10 @@ li a {
 
 .sign-up-box-btn button {
     background-color: transparent;
-    border: 1px solid #F9FAF8;
-    border-radius: 4px;
-    padding: 4px 16px;
+    border: 2px solid #F9FAF8;
+    border-radius: 6px;
+    padding: 8px 24px;
+    font-size: 16px;
     cursor: pointer;
     color: #F9FAF8;
 }
@@ -177,4 +183,17 @@ li a {
     border-radius: 4px;
     transition: ease-in-out 0.3s;
     color: #3882F6;
+}
+
+
+/* Footer Styles */
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 48px 0;
+}
+
+.footer p {
+    color: #E5E7EB;
 }
