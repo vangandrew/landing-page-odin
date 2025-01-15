@@ -91,6 +91,8 @@ li a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 2px dotted red;
+    padding: 120px 0;
 }
 
 .container {
@@ -107,4 +109,67 @@ li a {
     border-radius: 8px;
     padding: 24px;
     text-align: center;
+}
+
+/* Quote Section Styles */
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px;
+}
+
+.quote-wrapper {
+    width: 1280px;
+}
+
+.quote-information h2 {
+    font-weight: 500;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote-information-credits {
+    text-align: right;
+    font-weight: bold;
+}
+
+/* Call to Action Styles */
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-box {
+    background-color: #3882F6;
+    padding: 48px 96px;
+    display: flex;
+    border-radius: 8px;
+}
+
+.sign-up-box-text h4 {
+    color: #F9FAF8;
+    font-style: bold;
+    font-size: 24px;
+}
+.sign-up-box-text p {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.sign-up-box-btn button {
+    background-color: transparent;
+    border: 1px solid #F9FAF8;
+    border-radius: 4px;
+    padding: 4px 16px;
+    cursor: pointer;
+    color: #F9FAF8;
+}
+.sign-up-box-btn:hover {
+    background-color: #F9FAF8;
+    color: #3882F6;
+    border-style: none;
 }
